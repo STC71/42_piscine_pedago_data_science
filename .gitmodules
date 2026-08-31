@@ -1,3 +1,6 @@
 [submodule "data_science_0_creation_db"]
 	path = data_science_0_creation_db
 	url = git@github.com:STC71/42_data_science_0_creation_db.git
+[submodule "data_science_1_data_warehouse"]
+	path = data_science_1_data_warehouse
+	url = git@github.com:STC71/42_data_science_1_data_warehouse.git
