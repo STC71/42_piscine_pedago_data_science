@@ -7,3 +7,6 @@
 [submodule "data_science_2_data_viz"]
 	path = data_science_2_data_viz
 	url = git@github.com:STC71/42_data_science_2_data_viz.git
+[submodule "data_science_3_the_present"]
+	path = data_science_3_the_present
+	url = git@github.com:STC71/42_data_science_3_the_present.git
