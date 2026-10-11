@@ -8,7 +8,7 @@
 
 **42 Málaga** · sternero · Formación práctica en datos: de la base SQL al modelo que predice
 
-[Módulos](#-módulos) · [Flujo](#-flujo-didáctico) · [Clonar](#-cómo-clonar) · [Estructura](#-estructura)
+[Módulos](#-módulos) · [Flujo](#-flujo-didáctico) · [Material didáctico](#-material-didáctico) · [Clonar](#-cómo-clonar) · [Estructura](#-estructura)
 
 </div>
 
@@ -53,6 +53,23 @@ M4  The future            →  modelos y predicción
 ```
 
 En M4 se reutilizan `Training_knight.csv` / `Validation_knight.csv` del M3.
+
+---
+
+## 📐 Material didáctico
+
+Además del `README.md` y de las guías de cada ejercicio, los módulos 2, 3 y 4
+incluyen un `mates.md` con explicaciones paso a paso de las fórmulas y conceptos
+estadísticos utilizados:
+
+| Módulo | Material |
+|--------|----------|
+| **2** | [Matemáticas de Data Viz](./data_science_2_data_viz/mates.md) |
+| **3** | [Matemáticas de The present](./data_science_3_the_present/mates.md) |
+| **4** | [Matemáticas de The future](./data_science_4_the_future/mates.md) |
+
+Los módulos 0 y 1 no tienen actualmente un `mates.md` independiente; sus
+explicaciones están integradas en los README y guías de SQL, Docker y warehouse.
 
 ---
 
