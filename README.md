@@ -1,16 +1,46 @@
-# 📊 Piscine Pedago Data Science
+<p align="center">
+  <img src="./banner.jpg" alt="Piscine Data Science – sternero – 42 Málaga – Octubre 2026" width="100%">
+</p>
 
 <div align="center">
 
-![42](https://img.shields.io/badge/42-School-000000?style=for-the-badge)
-![Data Science](https://img.shields.io/badge/Data_Science-Piscine-1f6feb?style=for-the-badge)
-![Status](https://img.shields.io/badge/Módulos_0–4-Completados-success?style=for-the-badge)
+[![42](https://img.shields.io/badge/42-School-000000?style=for-the-badge)](https://www.42malaga.com/)
+[![Data Science](https://img.shields.io/badge/Data_Science-Piscine-1f6feb?style=for-the-badge)](https://www.w3schools.com/datascience/)
+[![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/tutorial-sql.html)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)](https://matplotlib.org/)
+[![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Status](https://img.shields.io/badge/Módulos_0–4-Completados-success?style=for-the-badge)](#-módulos)
 
 **42 Málaga** · sternero · Formación práctica en datos: de la base SQL al modelo que predice
 
-[Módulos](#-módulos) · [Flujo](#-flujo-didáctico) · [Material didáctico](#-material-didáctico) · [Clonar](#-cómo-clonar) · [Estructura](#-estructura)
+[Índice](#indice) · [Módulos](#-módulos) · [Vídeos formativos](#videos-formativos) · [Clonar](#-cómo-clonar)
 
 </div>
+
+---
+
+<a id="indice"></a>
+
+## 📑 Índice
+
+1. [Qué es esta piscine](#-qué-es-esta-piscine)
+2. [Módulos](#-módulos)
+3. [Flujo didáctico](#-flujo-didáctico)
+4. [Material didáctico](#-material-didáctico)
+5. [Vídeos formativos en español](#videos-formativos)
+   - [5.1 — M0: SQL, PostgreSQL y Docker](#videos-m0)
+   - [5.2 — M1: Data Warehouse y ETL](#videos-m1)
+   - [5.3 — M2: Visualización de datos](#videos-m2)
+   - [5.4 — M3: Estadística y EDA](#videos-m3)
+   - [5.5 — M4: Machine Learning](#videos-m4)
+6. [Cómo clonar](#-cómo-clonar)
+7. [Estructura](#-estructura)
+8. [Requisitos habituales](#-requisitos-habituales)
+9. [Enlaces](#-enlaces)
 
 ---
 
@@ -39,6 +69,8 @@ Cada módulo es un **submódulo Git** con su propio README, guías (`python.md`,
 | **2** | [`data_science_2_data_viz`](https://github.com/STC71/42_data_science_2_data_viz) | Data visualization | ✅ |
 | **3** | [`data_science_3_the_present`](https://github.com/STC71/42_data_science_3_the_present) | The present (EDA, escalas, split) | ✅ |
 | **4** | [`data_science_4_the_future`](https://github.com/STC71/42_data_science_4_the_future) | The future (clasificación Jedi/Sith) | ✅ |
+
+[↑ Volver al índice](#indice)
 
 ---
 
@@ -71,6 +103,79 @@ estadísticos utilizados:
 Los módulos 0 y 1 no tienen actualmente un `mates.md` independiente; sus
 explicaciones están integradas en los README y guías de SQL, Docker y warehouse.
 
+[↑ Volver al índice](#indice)
+
+---
+
+<a id="videos-formativos"></a>
+
+## 🎬 Vídeos formativos en español
+
+Esta selección sigue el orden de la piscine: conviene completar cada bloque antes
+de pasar al siguiente. Los enlaces abren búsquedas temáticas de YouTube en español
+para que sigan siendo útiles aunque un vídeo concreto sea retirado o sustituido.
+Prioriza vídeos con ejemplos ejecutables, código visible y explicación de por qué
+se hace cada paso; los vídeos complementan, pero no sustituyen, el subject ni la
+documentación de cada módulo.
+
+<a id="videos-m0"></a>
+
+### 5.1 M0 – SQL, PostgreSQL y Docker
+
+- [SQL desde cero: SELECT, filtros, JOIN y GROUP BY](https://www.youtube.com/results?search_query=SQL+desde+cero+espa%C3%B1ol+SELECT+JOIN+GROUP+BY)
+- [PostgreSQL desde cero: instalación, tablas y consultas](https://www.youtube.com/results?search_query=PostgreSQL+desde+cero+espa%C3%B1ol+tablas+consultas)
+- [Claves primarias, foráneas y relaciones SQL](https://www.youtube.com/results?search_query=claves+primarias+for%C3%A1neas+relaciones+SQL+espa%C3%B1ol)
+- [Docker desde cero: imágenes, contenedores y volúmenes](https://www.youtube.com/results?search_query=Docker+desde+cero+espa%C3%B1ol+im%C3%A1genes+contenedores+vol%C3%BAmenes)
+
+[↑ Volver al índice](#indice)
+
+<a id="videos-m1"></a>
+
+### 5.2 M1 – Data Warehouse y ETL
+
+- [Data Warehouse: hechos y dimensiones](https://www.youtube.com/results?search_query=data+warehouse+hechos+dimensiones+espa%C3%B1ol)
+- [ETL y ELT: extracción, transformación y carga](https://www.youtube.com/results?search_query=ETL+ELT+extracci%C3%B3n+transformaci%C3%B3n+carga+espa%C3%B1ol)
+- [Limpieza y transformación de datos con SQL](https://www.youtube.com/results?search_query=limpieza+transformaci%C3%B3n+datos+SQL+espa%C3%B1ol)
+- [Modelado dimensional y normalización](https://www.youtube.com/results?search_query=modelado+dimensional+normalizaci%C3%B3n+data+warehouse+espa%C3%B1ol)
+
+[↑ Volver al índice](#indice)
+
+<a id="videos-m2"></a>
+
+### 5.3 M2 – Visualización de datos
+
+- [Python y pandas desde cero para análisis de datos](https://www.youtube.com/results?search_query=Python+pandas+desde+cero+an%C3%A1lisis+datos+espa%C3%B1ol)
+- [Matplotlib desde cero: gráficos en Python](https://www.youtube.com/results?search_query=Matplotlib+desde+cero+Python+espa%C3%B1ol)
+- [Histogramas, boxplots y distribuciones](https://www.youtube.com/results?search_query=histogramas+boxplots+distribuciones+estad%C3%ADstica+espa%C3%B1ol)
+- [K-Means y método del codo](https://www.youtube.com/results?search_query=K-Means+m%C3%A9todo+del+codo+clustering+espa%C3%B1ol)
+
+[↑ Volver al índice](#indice)
+
+<a id="videos-m3"></a>
+
+### 5.4 M3 – Estadística y EDA
+
+- [Análisis exploratorio de datos (EDA)](https://www.youtube.com/results?search_query=an%C3%A1lisis+exploratorio+de+datos+EDA+espa%C3%B1ol)
+- [Correlación de Pearson explicada](https://www.youtube.com/results?search_query=correlaci%C3%B3n+de+Pearson+explicada+espa%C3%B1ol)
+- [Media, varianza y desviación estándar](https://www.youtube.com/results?search_query=media+varianza+desviaci%C3%B3n+est%C3%A1ndar+espa%C3%B1ol+estad%C3%ADstica)
+- [Estandarización z-score y normalización min-max](https://www.youtube.com/results?search_query=z-score+normalizaci%C3%B3n+min-max+espa%C3%B1ol)
+- [Train, validation y test split](https://www.youtube.com/results?search_query=train+validation+test+split+machine+learning+espa%C3%B1ol)
+
+[↑ Volver al índice](#indice)
+
+<a id="videos-m4"></a>
+
+### 5.5 M4 – Machine Learning
+
+- [Matriz de confusión, precisión, recall, F1 y accuracy](https://www.youtube.com/results?search_query=matriz+de+confusi%C3%B3n+precision+recall+F1+accuracy+espa%C3%B1ol)
+- [PCA y varianza explicada](https://www.youtube.com/results?search_query=PCA+varianza+explicada+espa%C3%B1ol+machine+learning)
+- [VIF y multicolinealidad](https://www.youtube.com/results?search_query=VIF+multicolinealidad+espa%C3%B1ol)
+- [Árboles de decisión y random forest](https://www.youtube.com/results?search_query=%C3%A1rboles+de+decisi%C3%B3n+random+forest+espa%C3%B1ol)
+- [K vecinos más cercanos (KNN)](https://www.youtube.com/results?search_query=KNN+k+vecinos+m%C3%A1s+cercanos+espa%C3%B1ol)
+- [Voting ensemble y aprendizaje conjunto](https://www.youtube.com/results?search_query=voting+ensemble+aprendizaje+conjunto+espa%C3%B1ol)
+
+[↑ Volver al índice](#indice)
+
 ---
 
 ## 📦 Cómo clonar
@@ -90,6 +195,8 @@ O clonar un módulo suelto:
 git clone git@github.com:STC71/42_data_science_4_the_future.git
 ```
 
+[↑ Volver al índice](#indice)
+
 ---
 
 ## 🗂 Estructura
@@ -107,6 +214,8 @@ git clone git@github.com:STC71/42_data_science_4_the_future.git
 
 Dentro de cada módulo: `ex00/`, `ex01/`, … con entrega, `README.md` y guías educativas.
 
+[↑ Volver al índice](#indice)
+
 ---
 
 ## 🛠 Requisitos habituales
@@ -119,12 +228,16 @@ Dentro de cada módulo: `ex00/`, `ex01/`, … con entrega, `README.md` y guías 
 
 Sigue el `README` de cada módulo para detalles (goinfre, sin sudo, etc.).
 
+[↑ Volver al índice](#indice)
+
 ---
 
 ## 🔗 Enlaces
 
 - [42 Outer Core](https://github.com/STC71/42_Outer_Core) — ecosistema completo  
 - [Módulo 0](https://github.com/STC71/42_data_science_0_creation_db) · [1](https://github.com/STC71/42_data_science_1_data_warehouse) · [2](https://github.com/STC71/42_data_science_2_data_viz) · [3](https://github.com/STC71/42_data_science_3_the_present) · [4](https://github.com/STC71/42_data_science_4_the_future)
+
+[↑ Volver al índice](#indice)
 
 ---
 
