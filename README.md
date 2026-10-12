@@ -90,9 +90,13 @@ En M4 se reutilizan `Training_knight.csv` / `Validation_knight.csv` del M3.
 
 ## 📐 Material didáctico
 
-Además del `README.md` y de las guías de cada ejercicio, los módulos 2, 3 y 4
-incluyen un `mates.md` con explicaciones paso a paso de las fórmulas y conceptos
-estadísticos utilizados:
+Además del `README.md` y de las guías de cada ejercicio (`ex0N/python.md`, etc.),
+cada módulo acumula documentación **didáctica de apoyo** (no sustituye al subject
+ni a los entregables).
+
+### Matemáticas (`mates.md`)
+
+Los módulos 2, 3 y 4 incluyen un `mates.md` con fórmulas, analogías y ejemplos:
 
 | Módulo | Material |
 |--------|----------|
@@ -102,6 +106,40 @@ estadísticos utilizados:
 
 Los módulos 0 y 1 no tienen actualmente un `mates.md` independiente; sus
 explicaciones están integradas en los README y guías de SQL, Docker y warehouse.
+
+### Guías de herramientas (raíz de cada módulo)
+
+Documentación **desde cero** (Python, tablas, gráficos, modelos, SQL del warehouse),
+pensada también como carta de presentación en procesos selectivos:
+
+| Módulo | Guías en la raíz del módulo |
+|--------|-----------------------------|
+| **2** Data Viz | [python.md](./data_science_2_data_viz/python.md) · [numpy.md](./data_science_2_data_viz/numpy.md) · [matplotlib.md](./data_science_2_data_viz/matplotlib.md) · [scikit-learn.md](./data_science_2_data_viz/scikit-learn.md) · [sql-data-warehouse.md](./data_science_2_data_viz/sql-data-warehouse.md) · [mates.md](./data_science_2_data_viz/mates.md) |
+| **3** The present | [python.md](./data_science_3_the_present/python.md) · [pandas.md](./data_science_3_the_present/pandas.md) · [numpy.md](./data_science_3_the_present/numpy.md) · [matplotlib.md](./data_science_3_the_present/matplotlib.md) · [mates.md](./data_science_3_the_present/mates.md) |
+| **4** The future | [python.md](./data_science_4_the_future/python.md) · [pandas.md](./data_science_4_the_future/pandas.md) · [numpy.md](./data_science_4_the_future/numpy.md) · [matplotlib.md](./data_science_4_the_future/matplotlib.md) · [scikit-learn.md](./data_science_4_the_future/scikit-learn.md) · [mates.md](./data_science_4_the_future/mates.md) |
+
+| Guía | Para qué sirve (idea) |
+|------|------------------------|
+| `python.md` | Hub del lenguaje y mapa de ejercicios del módulo |
+| `pandas.md` | CSV, DataFrame, Train/Test, `X`/`y` (central en M3–M4) |
+| `numpy.md` | Arrays, `shape`, estadísticas en bloque |
+| `matplotlib.md` | Tipos de gráfico del módulo y PNG en 42 |
+| `scikit-learn.md` | Scaler, K-Means (M2) / Tree·KNN·Voting (M4) |
+| `sql-data-warehouse.md` | SQL y conexión al warehouse (M2) |
+| `mates.md` | Cuentas y fórmulas con analogías |
+
+### Defensa guiada (`evaluation.sh`)
+
+Varios módulos incluyen un `evaluation.sh` en la **raíz** (guía interactiva alineada
+con la hoja de evaluación). **No** forma parte de la nota ni sustituye la defensa oficial:
+
+| Módulo | Script |
+|--------|--------|
+| **2** | [`evaluation.sh`](./data_science_2_data_viz/evaluation.sh) |
+| **3** | [`evaluation.sh`](./data_science_3_the_present/evaluation.sh) |
+| **4** | [`evaluation.sh`](./data_science_4_the_future/evaluation.sh) |
+
+(El módulo 0 puede disponer de evaluación guiada en su propio repo; consulta su README.)
 
 [↑ Volver al índice](#indice)
 
@@ -205,14 +243,15 @@ git clone git@github.com:STC71/42_data_science_4_the_future.git
 42_piscine_pedago_data_science/
 ├── data_science_0_creation_db/     # submódulo
 ├── data_science_1_data_warehouse/  # submódulo
-├── data_science_2_data_viz/        # submódulo
-├── data_science_3_the_present/     # submódulo
-├── data_science_4_the_future/      # submódulo
+├── data_science_2_data_viz/        # submódulo (+ python/numpy/matplotlib/sklearn/sql/mates)
+├── data_science_3_the_present/     # submódulo (+ python/pandas/numpy/matplotlib/mates)
+├── data_science_4_the_future/      # submódulo (+ python/pandas/numpy/matplotlib/sklearn/mates)
 ├── .gitmodules
 └── README.md                       # este fichero
 ```
 
-Dentro de cada módulo: `ex00/`, `ex01/`, … con entrega, `README.md` y guías educativas.
+Dentro de cada módulo: `ex00/`, `ex01/`, … con entrega, `README.md` y guías educativas.  
+En la **raíz** de M2–M4: guías transversales (`python.md`, `pandas.md`, …), `mates.md` y a menudo `evaluation.sh` (ver [Material didáctico](#-material-didáctico)).
 
 [↑ Volver al índice](#indice)
 
